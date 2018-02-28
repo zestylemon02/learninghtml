@@ -4,7 +4,7 @@
 <head>
     <title>INFS2233 Tutor's Homepage</title>
 </head>
-<!-- Define the CSS Styles to be used for the table, this allows us to use a common formatting scheme to any table we add into the HTML code to make it look nice -->
+<!-- Define the CSS Styles to be used for the table and other elements, this allows us to use a common formatting scheme to any element we add into the HTML code to make it look nice -->
 <style>
     table {
         font-family: 'Courier New';
@@ -16,6 +16,10 @@
     .margin {
         margin-left: 50px;
     }
+
+    .date{
+        text-align: right;
+    }
 </style>
 
 <!-- To define a background colour, I am using the HTML way of inserting into the tag as a style, you should properly use this with the CSS method of background_color in HTML5 -->
@@ -23,11 +27,13 @@
 <body bgcolor="#F0FFFF">
     <h1 align="center">Welcome to the Tutor's Homepage</h1>
     <p>
-        <b>This is an exercise for INFS2233.</b>
+        <h3>This is an exercise for INFS2233.</h3>
     </p>
     <!-- BR tags insert a blank line -->
     <br>
-    <br>
+    <div class="date">
+        <p>Last updated on [1 March 2010]</p>
+    </div>
     <hr>
     <!-- P tags start at a new line -->
     <p>
